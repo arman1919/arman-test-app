@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/arman-test-app/static/css/main.2ffd8979.css",
+    "main.js": "/arman-test-app/static/js/main.a49092ad.js",
+    "static/js/453.3480f39a.chunk.js": "/arman-test-app/static/js/453.3480f39a.chunk.js",
+    "index.html": "/arman-test-app/index.html",
+    "main.2ffd8979.css.map": "/arman-test-app/static/css/main.2ffd8979.css.map",
+    "main.a49092ad.js.map": "/arman-test-app/static/js/main.a49092ad.js.map",
+    "453.3480f39a.chunk.js.map": "/arman-test-app/static/js/453.3480f39a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ffd8979.css",
+    "static/js/main.a49092ad.js"
+  ]
+}
