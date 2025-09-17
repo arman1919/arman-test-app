@@ -18,7 +18,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
       <div className={`mobile-menu ${isOpen ? 'open' : ''}`} onClick={(e) => e.stopPropagation()}>
         <div className="mobile-menu-header">
           <div className="mobile-logo">
-            <img src="/test-logo.png" alt="Logo" className="mobile-logo-img" />
+            <img src={`${process.env.PUBLIC_URL}/test-logo.png`} alt="Logo" className="mobile-logo-img" />
           </div>
           <button className="mobile-menu-close" onClick={onClose}>
           <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">

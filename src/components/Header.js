@@ -45,15 +45,15 @@ const Header = ({ onSearchToggle, isSearchOpen, onSearch, searchTerm, onMobileMe
       <div className="header-top">
         <div className="header-container">
           <div className="mobile-hamburger" onClick={onMobileMenuToggle}>
-              <img src="/mobile-menu.svg" alt="Mobile Menu" />
+              <img src={`${process.env.PUBLIC_URL}/mobile-menu.svg`} alt="Mobile Menu" />
           </div>
           <div className="logo">
-            <img src="/test-logo.png" alt="Logo" className="logo-img" />
+            <img src={`${process.env.PUBLIC_URL}/test-logo.png`} alt="Logo" className="logo-img" />
           </div>
           <div className="search-area">
             {!isSearchOpen ? (
               <div className="search-icon" onClick={onSearchToggle}>
-                <img src="/search.svg" alt="Search" />
+                <img src={`${process.env.PUBLIC_URL}/search.svg`} alt="Search" />
               </div>
             ) : (
               <div className="header-search">

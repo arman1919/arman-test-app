@@ -18,9 +18,9 @@ const PostCard = ({ post, onClick }) => {
         </div>
         <div className="post-meta">
           <span className="post-author">{post.autor}</span>
-          <img src="/Oval.svg" alt="Separator" className="post-separator-img" />
+          <img src={`${process.env.PUBLIC_URL}/Oval.svg`} alt="Separator" className="post-separator-img" />
           <span className="post-date">{post.date}</span>
-          <img src="/Oval.svg" alt="Separator" className="post-separator-img" />
+          <img src={`${process.env.PUBLIC_URL}/Oval.svg`} alt="Separator" className="post-separator-img" />
           <span className="post-views">{post.views} Views</span>
         </div>
         <p className="post-excerpt">{post.text}</p>

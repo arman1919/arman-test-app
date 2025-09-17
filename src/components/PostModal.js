@@ -49,9 +49,9 @@ const PostModal = ({ post, onClose }) => {
             <h2 className="modal-title">{post.title}</h2>
             <div className="modal-meta">
               <span className="modal-author">{post.autor}</span>
-              <img src="/Oval.svg" alt="Separator" className="modal-separator-img" />
+              <img src={`${process.env.PUBLIC_URL}/Oval.svg`} alt="Separator" className="modal-separator-img" />
               <span className="modal-date">{post.date}</span>
-              <img src="/Oval.svg" alt="Separator" className="modal-separator-img" />
+              <img src={`${process.env.PUBLIC_URL}/Oval.svg`} alt="Separator" className="modal-separator-img" />
               <span className="modal-views">{post.views} Views</span>
             </div>
           </div>
